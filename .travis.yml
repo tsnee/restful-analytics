@@ -1,5 +1,7 @@
 language: python
 python:
-    - 3.6
+  - "3.7-dev"
+install:
+  - python setup.py clean build
 script:
-  - python -m pytest -v
+  - pytest -v
