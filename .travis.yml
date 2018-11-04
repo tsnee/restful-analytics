@@ -2,7 +2,7 @@ language: python
 python:
   - "3.7-dev"
 install:
-  - rm -rf __pycache__
+  - find . -name \*.pyc -exec rm -f {} \;
   - python setup.py clean install
 script:
   - pytest -v
