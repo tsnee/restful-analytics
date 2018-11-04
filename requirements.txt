@@ -1,2 +1,4 @@
 flask-restplus==0.12.1
 numpy==1.15.3
+pytest==3.9.3
+pytest-cov==2.6.0
