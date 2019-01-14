@@ -1,5 +1,5 @@
 flask-restplus==0.12.1
-numpy==1.15.4
+numpy==1.16.0
 pytest==4.1.1
 pytest-cov==2.6.1
 codecov==2.0.15
